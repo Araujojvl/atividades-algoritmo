@@ -1,6 +1,9 @@
-prompt = require("prompt-sync")();
+function menor(a, b){
+    if( a < b){
+         return a;
+    } else {
+        return b;
+    }
+}
 
-entrada = prompt("Entre com a sua idade: ");
-nro = parseInt(entrada);
-nro = nro + 1;
-console.log(`idade: ${nro}`);
+console.log( menor(2,3) );

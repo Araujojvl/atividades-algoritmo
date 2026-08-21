@@ -1,10 +1,7 @@
-i= 0;
-while(i < 5) {
-    console.log(i); 
-    i = i + 1;
-
-
-
+function saudacao(nome){
+     console.log(`oie ${nome}`);
 }
 
-console.log("fim!");
+saudacao("Ana");
+saudacao("Maria");
+saudacao("Pedro");

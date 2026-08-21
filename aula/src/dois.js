@@ -1,5 +1,8 @@
-prompt = require("prompt-sync")();
+function somar(a,b){
+    return a + b;
+}
 
-entrada = prompt ("Entre com o seu nome: ");
+let r = somar(2,3);
+console.log(`A soma é ${r}`);
 
-console.log(`nome: ${entrada}`);
+console.log( somar(4,10) );
