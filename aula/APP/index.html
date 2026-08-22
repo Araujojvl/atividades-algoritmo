@@ -1,50 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <title>Document</title>
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Exemplo de Flexbox</h1>
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="paginas/um.html">Um</a></li>
-                <li><a href="paginas/dois.html">Dois</a></li>
-                <li><a href="paginas/tres.html">Três</a></li>
-            </ul>
-        </nav>
-    </header>
     <main>
-        <article class="disciplina">
-            <h3>Algoritmos e lógica de programação</h3>
-        </article>
-        <article class="disciplina">
-            <h3>Desenvolvimento Web I</h3>
-        </article>
-        <article class="disciplina">
-            <h3>Engenharia de Software I</h3>
-        </article>
-        <article class="disciplina">
-            <h3>Design Digital</h3>
-        </article>
-        <article class="disciplina">
-            <h3>Sistemas Operacionais e Redes de computaores</h3>
-        </article>
-        <article class="disciplina">
-            <h3>Modelagem e Banco de Dados</h3>
-        </article>
+        <fieldset>
+            <legend>Cadastro</legend>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+            </div>
+            <button onclick="adicionar()">Salvar</button>
+        </fieldset>
+        <fieldset>
+            <legend>Saída</legend>
+            <ol id="saida"></ol>
+        </fieldset>
     </main>
-    <footer>
-        <h4 id="fatec">
-            Fatec Jacareí - Centro Paula Souza
-        </h4>
-        <p>
-            <strong>Endereço:</strong> R. Faria Lima, 155 - Jardim Santa Maria, Jacareí - SP, 12328-070
-        </p>
-    </footer>
 </body>
-
 </html>
